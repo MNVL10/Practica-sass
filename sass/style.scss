@@ -1,0 +1,17 @@
+@import'./mixins/mixins';
+
+@import'./parcials/header';
+
+@import'./parcials/content';
+
+@import'./parcials/footer';
+
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+html{
+	border-top: 17px solid $colornegro;
+}
